@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#root {
+    background-color: #FAFAFA;
+    padding: 71px 0px 0px 0px;                                                                                                 
+}
+.information_title {
+    font-size: 36px;
+    line-height: 48px;
+    padding: 0px 50px 38px 12px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+}
+.information_heading {
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.information_div {
+    padding: 0px 30px 10px 12px;
+}
+.information {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    padding: 0px 30px 38px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.information_display_flex {
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    width: 50%;
+}
+.image_1 {
+    width: 80%;
+}
+.image_3 {
+    padding: 0px;
+}
+.image_4 {
+    padding: 0px;
+}
+.image_5 {
+    padding: 0px;
+}
+.image_6 {
+    margin: 0px;
+}
+.person_name {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.div_padding {
+    padding: 0px 17px 130px 19px;
+}
+.display_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.padding_image {
+    margin: 86px 0px 0px 0px;
+}
+.div_image {
+    width: 50%;
+    position: relative;
+}
+.person_1 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 30px;
+    right: -15px;
+}
+.person_2 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 100px;
+    top: 40px;
+    right: -25px;
+}
+.person_3 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 20px;
+    right: -5px;
+}
+.person_4 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 25px;
+    right: -10px;
+}
+.person_5 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 20px;
+    right: -5px;
+}
+.person_6 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 20px;
+    right: -3px;
+}
+.creater {
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+@media (min-width: 786px) {
+    .information_display_flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .information_div {
+        height: 124px;
+        width: 50%;
+    }
+    #root {
+        padding: 90px 30px 20px 50px;
+    }
+    .display_flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .div_padding {
+        padding: 0px;
+    }
+    .image {
+        width: calc(32% - 6px);
+    }
+    .image_4 {
+        margin: 0px;
+    }
+    .image_5 {
+        margin-top: 86px;
+    }
+    .image_6 {
+        margin-top: 0px;
+    }
+    .person_1 {
+        right: -5px;
+    }
+    .person_2 {
+        right: -15px;
+    }
+    .person_3 {
+        right: 9px;
+    }
+    .person_4 {
+        right: 0px;
+    }
+    .person_5 {
+        right: 5px;
+    }
+    .person_6 {
+        right: 7px;
+    }
+    .creater {
+        margin-top: 100px;
+    }
+}
